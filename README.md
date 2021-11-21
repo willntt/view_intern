@@ -13,4 +13,6 @@ echo -e "# -*- coding: utf-8 -*- \n\ndef imprimindo_algo():\n    return 'Olá co
 git add .
 git commit -m"inserindo a função de print do comendador"
 git push origin master
+touch minhaCredencial
+echo "minhaCredencial" >> .gitignore
 ```
